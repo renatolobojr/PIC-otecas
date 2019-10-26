@@ -1,0 +1,145 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F628A ]
+[d frameptr 0 ]
+"146 /home/lobinhojr/MPLABXProjects/LOBO_16F628A.X/16F6_27_28_48_A.h
+[v _porta_A_config porta_A_config `(v  1 e 1 0 ]
+"155
+[v _porta_B_config porta_B_config `(v  1 e 1 0 ]
+"10 /opt/microchip/xc8/v2.10/pic/sources/c90/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /opt/microchip/xc8/v2.10/pic/sources/c90/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v2.10/pic/sources/c90/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"14 /home/lobinhojr/MPLABXProjects/LOBO_16F628A.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"166 /opt/microchip/xc8/v2.10/pic/include/pic16f628a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"228
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S104 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"333
+[s S113 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S118 . 1 `S104 1 . 1 0 `S113 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES118  1 e 1 @11 ]
+[s S136 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 TMR1CS 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+]
+"485
+[s S142 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[u S146 . 1 `S136 1 . 1 0 `S142 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES146  1 e 1 @16 ]
+[s S160 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 TOUTPS 1 0 :4:3 
+]
+"553
+[s S164 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TOUTPS0 1 0 :1:3 
+`uc 1 TOUTPS1 1 0 :1:4 
+`uc 1 TOUTPS2 1 0 :1:5 
+`uc 1 TOUTPS3 1 0 :1:6 
+]
+[u S172 . 1 `S160 1 . 1 0 `S164 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES172  1 e 1 @18 ]
+[s S188 . 1 `uc 1 CCP1M 1 0 :4:0 
+`uc 1 CCP1Y 1 0 :1:4 
+`uc 1 CCP1X 1 0 :1:5 
+]
+"642
+[s S192 . 1 `uc 1 CCP1M0 1 0 :1:0 
+`uc 1 CCP1M1 1 0 :1:1 
+`uc 1 CCP1M2 1 0 :1:2 
+`uc 1 CCP1M3 1 0 :1:3 
+]
+[u S197 . 1 `S188 1 . 1 0 `S192 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES197  1 e 1 @23 ]
+[s S22 . 1 `uc 1 CM 1 0 :3:0 
+`uc 1 CIS 1 0 :1:3 
+`uc 1 C1INV 1 0 :1:4 
+`uc 1 C2INV 1 0 :1:5 
+`uc 1 C1OUT 1 0 :1:6 
+`uc 1 C2OUT 1 0 :1:7 
+]
+"787
+[s S29 . 1 `uc 1 CM0 1 0 :1:0 
+`uc 1 CM1 1 0 :1:1 
+`uc 1 CM2 1 0 :1:2 
+]
+[u S33 . 1 `S22 1 . 1 0 `S29 1 . 1 0 ]
+[v _CMCONbits CMCONbits `VES33  1 e 1 @31 ]
+[s S76 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"857
+[s S83 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S87 . 1 `S76 1 . 1 0 `S83 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES87  1 e 1 @129 ]
+"907
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"969
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S48 . 1 `uc 1 VR 1 0 :4:0 
+`uc 1 . 1 0 :1:4 
+`uc 1 VRR 1 0 :1:5 
+`uc 1 VROE 1 0 :1:6 
+`uc 1 VREN 1 0 :1:7 
+]
+"1287
+[s S54 . 1 `uc 1 VR0 1 0 :1:0 
+`uc 1 VR1 1 0 :1:1 
+`uc 1 VR2 1 0 :1:2 
+`uc 1 VR3 1 0 :1:3 
+]
+[u S59 . 1 `S48 1 . 1 0 `S54 1 . 1 0 ]
+[v _VRCONbits VRCONbits `VES59  1 e 1 @159 ]
+"14 /home/lobinhojr/MPLABXProjects/LOBO_16F628A.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"23
+} 0
+"155 /home/lobinhojr/MPLABXProjects/LOBO_16F628A.X/16F6_27_28_48_A.h
+[v _porta_B_config porta_B_config `(v  1 e 1 0 ]
+{
+[v porta_B_config@tris tris `i  1 p 2 0 ]
+[v porta_B_config@port port `i  1 p 2 2 ]
+"160
+} 0
+"146
+[v _porta_A_config porta_A_config `(v  1 e 1 0 ]
+{
+[v porta_A_config@tris tris `i  1 p 2 0 ]
+[v porta_A_config@port port `i  1 p 2 2 ]
+"152
+} 0
