@@ -1,0 +1,392 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"773 /opt/microchip/xc8/v2.10/pic/include/pic16f628a.h
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 773:     struct {
+[s S29 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S29 . CM CIS C1INV C2INV C1OUT C2OUT ]
+"781
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 781:     struct {
+[s S30 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S30 . CM0 CM1 CM2 ]
+"772
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 772: typedef union {
+[u S28 `S29 1 `S30 1 ]
+[n S28 . . . ]
+"787
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 787: extern volatile CMCONbits_t CMCONbits __attribute__((address(0x01F)));
+[v _CMCONbits `VS28 ~T0 @X0 0 e@31 ]
+"1273
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1273:     struct {
+[s S49 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S49 . VR . VRR VROE VREN ]
+"1280
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1280:     struct {
+[s S50 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S50 . VR0 VR1 VR2 VR3 ]
+"1272
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1272: typedef union {
+[u S48 `S49 1 `S50 1 ]
+[n S48 . . . ]
+"1287
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1287: extern volatile VRCONbits_t VRCONbits __attribute__((address(0x09F)));
+[v _VRCONbits `VS48 ~T0 @X0 0 e@159 ]
+"907
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 907: extern volatile unsigned char TRISA __attribute__((address(0x085)));
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"166
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 166: extern volatile unsigned char PORTA __attribute__((address(0x005)));
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+"843
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 843:     struct {
+[s S32 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S32 . PS PSA T0SE T0CS INTEDG nRBPU ]
+"851
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 851:     struct {
+[s S33 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S33 . PS0 PS1 PS2 ]
+"842
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 842: typedef union {
+[u S31 `S32 1 `S33 1 ]
+[n S31 . . . ]
+"857
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 857: extern volatile OPTION_REGbits_t OPTION_REGbits __attribute__((address(0x081)));
+[v _OPTION_REGbits `VS31 ~T0 @X0 0 e@129 ]
+"969
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 969: extern volatile unsigned char TRISB __attribute__((address(0x086)));
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"228
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 228: extern volatile unsigned char PORTB __attribute__((address(0x006)));
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"316
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 316:     struct {
+[s S12 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S12 . RBIF INTF T0IF RBIE INTE T0IE PEIE GIE ]
+"326
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 326:     struct {
+[s S13 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S13 . . TMR0IF . TMR0IE ]
+"315
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 315: typedef union {
+[u S11 `S12 1 `S13 1 ]
+[n S11 . . . ]
+"333
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 333: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS11 ~T0 @X0 0 e@11 ]
+"472
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 472:     struct {
+[s S17 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 ]
+[n S17 . TMR1ON TMR1CS nT1SYNC T1OSCEN T1CKPS ]
+"479
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 479:     struct {
+[s S18 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S18 . . T1CKPS0 T1CKPS1 ]
+"471
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 471: typedef union {
+[u S16 `S17 1 `S18 1 ]
+[n S16 . . . ]
+"485
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 485: extern volatile T1CONbits_t T1CONbits __attribute__((address(0x010)));
+[v _T1CONbits `VS16 ~T0 @X0 0 e@16 ]
+"538
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 538:     struct {
+[s S20 :2 `uc 1 :1 `uc 1 :4 `uc 1 ]
+[n S20 . T2CKPS TMR2ON TOUTPS ]
+"543
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 543:     struct {
+[s S21 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S21 . T2CKPS0 T2CKPS1 . TOUTPS0 TOUTPS1 TOUTPS2 TOUTPS3 ]
+"537
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 537: typedef union {
+[u S19 `S20 1 `S21 1 ]
+[n S19 . . . ]
+"553
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 553: extern volatile T2CONbits_t T2CONbits __attribute__((address(0x012)));
+[v _T2CONbits `VS19 ~T0 @X0 0 e@18 ]
+"630
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 630:     struct {
+[s S23 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S23 . CCP1M CCP1Y CCP1X ]
+"635
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 635:     struct {
+[s S24 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S24 . CCP1M0 CCP1M1 CCP1M2 CCP1M3 ]
+"629
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 629: typedef union {
+[u S22 `S23 1 `S24 1 ]
+[n S22 . . . ]
+"642
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 642: extern volatile CCP1CONbits_t CCP1CONbits __attribute__((address(0x017)));
+[v _CCP1CONbits `VS22 ~T0 @X0 0 e@23 ]
+[p mainexit ]
+"54 /opt/microchip/xc8/v2.10/pic/include/pic16f628a.h
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"230
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 230: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"292
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 292: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"312
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 312: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"390
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 390: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"447
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 447: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"454
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 454: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"461
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 461: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"468
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 468: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"527
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 527: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"534
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 534: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"605
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 605: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"612
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 612: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"619
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 619: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"626
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 626: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"684
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 684: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"755
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 755: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"762
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 762: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"769
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 769: __asm("CMCON equ 01Fh");
+[; <" CMCON equ 01Fh ;# ">
+"839
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 839: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"909
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 909: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"971
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 971: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1033
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1033: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1090
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1090: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1139
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1139: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1146
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1146: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"1203
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1203: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"1210
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1210: __asm("EEDATA equ 09Ah");
+[; <" EEDATA equ 09Ah ;# ">
+"1217
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1217: __asm("EEADR equ 09Bh");
+[; <" EEADR equ 09Bh ;# ">
+"1224
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1224: __asm("EECON1 equ 09Ch");
+[; <" EECON1 equ 09Ch ;# ">
+"1262
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1262: __asm("EECON2 equ 09Dh");
+[; <" EECON2 equ 09Dh ;# ">
+"1269
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1269: __asm("VRCON equ 09Fh");
+[; <" VRCON equ 09Fh ;# ">
+"146 ./16F6_27_28_48_A.h
+[; ;./16F6_27_28_48_A.h: 146: void porta_A_config(int tris, int port){
+[v _porta_A_config `(v ~T0 @X0 1 ef2`i`i ]
+{
+[e :U _porta_A_config ]
+[v _tris `i ~T0 @X0 1 r1 ]
+[v _port `i ~T0 @X0 1 r2 ]
+[f ]
+"148
+[; ;./16F6_27_28_48_A.h: 148:     CMCONbits.CM = 7;
+[e = . . _CMCONbits 0 0 -> -> 7 `i `uc ]
+"149
+[; ;./16F6_27_28_48_A.h: 149:     VRCONbits.VROE = 0;
+[e = . . _VRCONbits 0 3 -> -> 0 `i `uc ]
+"150
+[; ;./16F6_27_28_48_A.h: 150:     TRISA = tris;
+[e = _TRISA -> _tris `uc ]
+"151
+[; ;./16F6_27_28_48_A.h: 151:     PORTA = port;
+[e = _PORTA -> _port `uc ]
+"152
+[; ;./16F6_27_28_48_A.h: 152: }
+[e :UE 51 ]
+}
+"155
+[; ;./16F6_27_28_48_A.h: 155: void porta_B_config(int tris, int port){
+[v _porta_B_config `(v ~T0 @X0 1 ef2`i`i ]
+{
+[e :U _porta_B_config ]
+[v _tris `i ~T0 @X0 1 r1 ]
+[v _port `i ~T0 @X0 1 r2 ]
+[f ]
+"157
+[; ;./16F6_27_28_48_A.h: 157:     OPTION_REGbits.nRBPU = 1;
+[e = . . _OPTION_REGbits 0 5 -> -> 1 `i `uc ]
+"158
+[; ;./16F6_27_28_48_A.h: 158:     TRISB = tris;
+[e = _TRISB -> _tris `uc ]
+"159
+[; ;./16F6_27_28_48_A.h: 159:     PORTB = port;
+[e = _PORTB -> _port `uc ]
+"160
+[; ;./16F6_27_28_48_A.h: 160: }
+[e :UE 52 ]
+}
+"163
+[; ;./16F6_27_28_48_A.h: 163: void timer_0_config(){
+[v _timer_0_config `(v ~T0 @X0 1 ef ]
+{
+[e :U _timer_0_config ]
+[f ]
+"164
+[; ;./16F6_27_28_48_A.h: 164:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"165
+[; ;./16F6_27_28_48_A.h: 165:     INTCONbits.T0IE = 1;
+[e = . . _INTCONbits 0 5 -> -> 1 `i `uc ]
+"166
+[; ;./16F6_27_28_48_A.h: 166:     OPTION_REGbits.T0CS = 1;
+[e = . . _OPTION_REGbits 0 3 -> -> 1 `i `uc ]
+"167
+[; ;./16F6_27_28_48_A.h: 167:     OPTION_REGbits.T0SE = 1;
+[e = . . _OPTION_REGbits 0 2 -> -> 1 `i `uc ]
+"168
+[; ;./16F6_27_28_48_A.h: 168:     OPTION_REGbits.PSA = 0;
+[e = . . _OPTION_REGbits 0 1 -> -> 0 `i `uc ]
+"169
+[; ;./16F6_27_28_48_A.h: 169:     OPTION_REGbits.PS = 1;
+[e = . . _OPTION_REGbits 0 0 -> -> 1 `i `uc ]
+"172
+[; ;./16F6_27_28_48_A.h: 172: }
+[e :UE 53 ]
+}
+"175
+[; ;./16F6_27_28_48_A.h: 175: void timer_1_config(){
+[v _timer_1_config `(v ~T0 @X0 1 ef ]
+{
+[e :U _timer_1_config ]
+[f ]
+"176
+[; ;./16F6_27_28_48_A.h: 176:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"177
+[; ;./16F6_27_28_48_A.h: 177:     INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
+"178
+[; ;./16F6_27_28_48_A.h: 178:     T1CONbits.TMR1ON = 1;
+[e = . . _T1CONbits 0 0 -> -> 1 `i `uc ]
+"179
+[; ;./16F6_27_28_48_A.h: 179:     T1CONbits.T1CKPS = 0;
+[e = . . _T1CONbits 0 4 -> -> 0 `i `uc ]
+"180
+[; ;./16F6_27_28_48_A.h: 180:     T1CONbits.T1OSCEN = 0;
+[e = . . _T1CONbits 0 3 -> -> 0 `i `uc ]
+"181
+[; ;./16F6_27_28_48_A.h: 181:     T1CONbits.nT1SYNC = 0;
+[e = . . _T1CONbits 0 2 -> -> 0 `i `uc ]
+"182
+[; ;./16F6_27_28_48_A.h: 182:     T1CONbits.TMR1CS = 0;
+[e = . . _T1CONbits 0 1 -> -> 0 `i `uc ]
+"184
+[; ;./16F6_27_28_48_A.h: 184: }
+[e :UE 54 ]
+}
+"187
+[; ;./16F6_27_28_48_A.h: 187: void timer_2_config(){
+[v _timer_2_config `(v ~T0 @X0 1 ef ]
+{
+[e :U _timer_2_config ]
+[f ]
+"188
+[; ;./16F6_27_28_48_A.h: 188:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"189
+[; ;./16F6_27_28_48_A.h: 189:     INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
+"190
+[; ;./16F6_27_28_48_A.h: 190:     T2CONbits.TMR2ON = 1;
+[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
+"191
+[; ;./16F6_27_28_48_A.h: 191:     T2CONbits.T2CKPS = 0;
+[e = . . _T2CONbits 0 0 -> -> 0 `i `uc ]
+"192
+[; ;./16F6_27_28_48_A.h: 192:     T2CONbits.TOUTPS = 0;
+[e = . . _T2CONbits 0 2 -> -> 0 `i `uc ]
+"197
+[; ;./16F6_27_28_48_A.h: 197: }
+[e :UE 55 ]
+}
+"200
+[; ;./16F6_27_28_48_A.h: 200: void ccp_1_config(){
+[v _ccp_1_config `(v ~T0 @X0 1 ef ]
+{
+[e :U _ccp_1_config ]
+[f ]
+"201
+[; ;./16F6_27_28_48_A.h: 201:     CCP1CONbits.CCP1M = 0;
+[e = . . _CCP1CONbits 0 0 -> -> 0 `i `uc ]
+"202
+[; ;./16F6_27_28_48_A.h: 202: }
+[e :UE 56 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"14 main.c
+[; ;main.c: 14: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"16
+[; ;main.c: 16:     porta_A_config(0b00000000,0b00000000);
+[e ( _porta_A_config (2 , -> 0 `i -> 0 `i ]
+"17
+[; ;main.c: 17:     porta_B_config(0b00000000,0b00000000);
+[e ( _porta_B_config (2 , -> 0 `i -> 0 `i ]
+"22
+[; ;main.c: 22:     return;
+[e $UE 57  ]
+"23
+[; ;main.c: 23: }
+[e :UE 57 ]
+}
